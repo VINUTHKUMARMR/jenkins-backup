@@ -1,0 +1,22 @@
+Started by user [8mha:////4L0ln31Zg7TGdNFCV3E0ZgBS0NHIbnh1JmtK+k55TAaHAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL9ssy80pKM7NLcxKLcIgAgWLTgyAAAAA==[0mvinuthkumarmr
+Running as SYSTEM
+Building remotely on [8mha:////4DaNYi3bpvuJmHx9b62DpsOZsz6JLCGCHTTqQRijNnFVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/cT01LwSQwA2IiAFxQAAAA==[0magent1 in workspace /home/ubuntu/workspace/java1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/VINUTHKUMARMR/java.git
+ > git init /home/ubuntu/workspace/java1 # timeout=10
+Fetching upstream changes from https://github.com/VINUTHKUMARMR/java.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/VINUTHKUMARMR/java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/VINUTHKUMARMR/java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 79068356ad40ddb9770733831f275ae781825626 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 79068356ad40ddb9770733831f275ae781825626 # timeout=10
+Commit message: "Update README & Cleaning after merging"
+First time build. Skipping changelog.
+Finished: SUCCESS
